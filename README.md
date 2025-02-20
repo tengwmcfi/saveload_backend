@@ -13,6 +13,7 @@ Python 3x, pip, Django, PostgreSQL
 
 1. Clone the repository to your host machine.
 2. Install Python 3.x and pip. Use a virtual environment if your host has an older Python version that cannot be upgraded.
+3. Set virtual env for python `source .venv/bin/activate`.
 3. Install PostgreSQL or any other Django-friendly database engine. You can also install pgAdmin or any other administrative tool for your database.
 4. Go to your chart storage folder and install the required dependencies: `pip install -r requirements.txt`. For Unix users: you should have the python-dev package to install `psycopg2`.
 5. Create an empty database in PostgreSQL using either the command line or pgAdmin.

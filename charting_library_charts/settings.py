@@ -18,7 +18,7 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.postgresql_psycopg2',
 		'NAME': os.getenv('DB_NAME', 'charting_library'),
 		'USER': os.getenv('DB_USER', 'postgres'),
-		'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),
+		'PASSWORD': os.getenv('DB_PASSWORD', 'somePassword'),
 		'HOST': os.getenv('DB_HOST', 'localhost'),
 		'PORT': int(os.getenv('DB_PORT', '5432')),
 	}
@@ -46,7 +46,7 @@ USE_I18N = True
 USE_L10N = True
 
 # If you set this to False, Django will not use timezone-aware datetimes.
-USE_TZ = True
+# USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
